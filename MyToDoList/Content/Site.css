@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar,
+.navbar-inverse,
+.navbar-fixed-top {
+    background-color: #cecece;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f5f5f5;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+        color: #f5f5f5;
+    }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(255,255,255, 0.5);
+}
+
+.jumbotron {
+    background-color: #5bc0de;
+    font-size: 2.5em;
+    color: #f1f1f1;
+    font-family: Serif;
+    margin: 1.25em 0;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+   font-family: serif;
+   color: #fff;
+   font-size: 3.25em;
+   text-shadow: 0px 0px 8px rgba(255,255,255, 0.25);
+   
+}
